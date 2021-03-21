@@ -1,8 +1,0 @@
- myFunction = function()
-{
-
-var str = "guvi-geeks"
-var caps = str.toUpperCase()
-console.log(caps)
-}
-myFunction()
