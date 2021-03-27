@@ -1,3 +1,5 @@
+ myFunction = function()
+{
 const median = (a1, a2) => {
   let x = a1.concat(a2);
   x.sort(function (a,b) {
@@ -12,3 +14,5 @@ const median = (a1, a2) => {
 let a = [1, 12, 15, 26, 38];
 let b = [2, 13, 17, 30, 45];
 console.log(median(a,b));
+}
+myFunction()
