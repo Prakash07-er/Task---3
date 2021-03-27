@@ -1,3 +1,6 @@
+ myFunction = function()
+{
+
 var myArray = ['Tata', 'nun', 'wow', 'malayalam', 'Prakash' ];   
 var b = myArray.filter(function(c,dd,f){
 var Cur = c.split('').reverse().join('');
@@ -5,3 +8,6 @@ if(c == Cur){
 console.log( myArray[dd] +" " + " is Palindrome" );
 }
 });
+
+}
+myFunction()
