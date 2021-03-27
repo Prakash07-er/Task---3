@@ -1,0 +1,4 @@
+let chars = ['prakash', 'doss', 'abinash', 'prakash', 'alen', 'aravindh', 'alen'];
+let duplicate = [...new Set(chars)];
+
+console.log(duplicate);
